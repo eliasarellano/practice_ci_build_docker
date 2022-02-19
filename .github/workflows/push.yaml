@@ -1,6 +1,7 @@
+name: OnlyBuild
 on:
-  push: feat/base_site
-name: deploy
+  push: 
+    [ feat/base_site ]
 jobs:
   build-and-push:
     name: build and push image
