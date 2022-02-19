@@ -1,7 +1,9 @@
-name: OnlyBuild
+name: Getting Started
+
 on:
   push: 
-    [ feat/base_site ]
+    branches: [ feat/base_site ]
+
 jobs:
   build-and-push:
     name: build and push image
